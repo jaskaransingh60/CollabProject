@@ -1,9 +1,271 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-html, body{
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item {
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.item-1 {
+    background-image: url(image1.avif);
+    background-size: cover;
+}
+
+.item-2 {
+    background-image: url(image2.avif);
+    background-size: cover;
+}
+
+.item-3 {
+    background-image: url(image3.avif);
+    background-size: cover;
+
+}
+
+.item-4 {
+    background-image: url(image4.avif);
+    background-size: cover;
+}
+
+.item-5 {
+    background-image: url(image5.avif);
+    background-size: cover;
+}
+
+.item-6 {
+    background-image: url(image6.avif);
+    background-size: cover;
+}
+
+.item-7 {
+    background-image: url(image7.avif);
+    background-size: cover;
+}
+
+.item-8 {
+    background-image: url(image8.avif);
+    background-size: cover;
+}
+
+.live {
+    background-color: #333;
+    height: 50px;
     width: 100%;
-    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+}
+
+.Item-Container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* .Item{
+    width: 230px;
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: aqua;   
+} */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-fit: contain;
+}
+
+.card-body {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.offer {
+    background: linear-gradient(to right, gold, white);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #333;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.price {
+    font-size: 18px;
+    color: #05d78e;
+    font-weight: bold;
+}
+
+.gold {
+    background: linear-gradient(to right, gold, white);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #333;
+}
+
+.best-selling {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.selling {
+    width: 350px;
+    height: 170px;
+    /* background-color: aqua; */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.selling-1 {
+    background-image: url(image11.avif);
+    background-size: cover;
+    /* background-position: center;   */
+}
+
+.selling-2 {
+    background-image: url(image12.avif);
+    background-size: cover;
+    /* background-position: center;   */
+}
+
+.selling-3 {
+    background-image: url(image13.avif);
+    background-size: cover;
+}
+
+.selling-4 {
+    background-image: url(image14.avif);
+    background-size: cover;
+}
+
+.Best-Selling {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.Best {
+    height: 300px;
+    width: 530px;
+    /* background-color: #007bff; */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.Best-1 {
+    background-image: url(image15.webp);
+   background-size: contain;
+    background-size: 100% 100%;
+
+}
+
+.Best-2 {
+    background-image: url(image16.webp);
+    background-size: cover;
+   background-size: contain;
+    background-size: 100% 100%;
+}
+
+.Gold {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    font-size: large;
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(to right, black, gold);
+    border-radius: 10px;
+
+
+}
+
+.join h1 {
+    color: white;
+    font-weight: bold;
+    margin-top: 70px;
+    padding-left: 50px;
+}
+
+.join h3 {
+    color: white;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.join button {
+    background: linear-gradient(to right, rgb(146, 126, 9), rgb(234, 227, 227), rgb(192, 168, 30));
+    height: 30px;
+    width: 70px;
+    border-radius: 4px;
+    margin-top: 70px;
+    margin-left: -155px;
+}
+
+.Best-4 {
+    background-image: url(image17.webp);
+    background-size: contain;
+    background-size: 100% 100%;
+    
+}
+
+.Best-5 {
+    background-image: url(image18.webp);
+    /* background-size: cover; */
+    background-size: contain;
+    background-size: 100% 100%;
+}
+.Selling-laptop{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
 }
